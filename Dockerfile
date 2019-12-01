@@ -1,4 +1,4 @@
-FROM node:12.13.0-alpine
+FROM node:12.13.0-alpine as builder
 LABEL maintainer="vbosstech"
 
 WORKDIR /webapp
